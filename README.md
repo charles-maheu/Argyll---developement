@@ -1,2 +1,3 @@
-# ArgyllUs
-Projet de 4e session de l'équipe "Robot Executif" - Open source
+# Argyll - development
+Open source projet from the "Robot Exécutif" team
+All documentation must be in english
