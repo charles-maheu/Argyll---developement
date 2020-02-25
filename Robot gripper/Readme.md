@@ -17,10 +17,10 @@ This document contains all files and instructions necessary to reproduce the phy
 3. 3D printed sections
 
   - Base claw
-  ![Base claw](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154630.jpg)
+  ![Base claw](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Image/Gripper_base.jpg)
   - Mobile claw
-  ![Image](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154309.jpg)
+  ![Image](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Image/Gripper_mobile.jpg)
   - Gear
-  ![Gear](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154752.jpg)
+  ![Gear](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Image/Gear.jpg)
   - Arm that links the servo to the gear  
-  ![Arm](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20170139.png)
+  ![Arm](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Image/Arm.png)
