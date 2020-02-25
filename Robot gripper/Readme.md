@@ -2,7 +2,7 @@
 This document contains all files and instructions necessary to reproduce the physical assempbly of the robot gripper
 1. Summary
 
-    This is a linear gripper made for picking small to medium light objects. It works on it own but works best at the end of a robotoc arm.
+   This is a linear gripper made for picking small to medium light objects. It works on it own but works best at the end of a robotic arm.
     
 2. BOM
 
@@ -22,4 +22,6 @@ This document contains all files and instructions necessary to reproduce the phy
   ![Image](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154309.jpg)
   - Gear
   ![Gear](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154752.jpg)
+  -Arm that links the servo to the gear
+  ![Arm](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20170139.png)
 
