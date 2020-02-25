@@ -11,4 +11,10 @@ This document contains all files and instructions necessary to reproduce the phy
   *The exact equipment used is included in the BOM, replacements can be made but I cannot garantee that it will work*
   
 2. 3D printed sections
-  
+  - Base claw
+  ![Base claw](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154630.jpg)
+  - Mobile claw
+  ![Image](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154309.jpg)
+  - Gear
+  ![Gear](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154752.jpg)
+
