@@ -2,7 +2,7 @@
 This document contains all files and instructions necessary to reproduce the physical assempbly of the robot gripper
 1. Summary
 
-   This is a linear gripper made for picking small to medium light objects. It works on it own but works best at the end of a robotic arm.
+   This is a linear gripper made for picking small to medium light objects. It works on it own but is most useful at the end of a robotic arm.
     
 2. BOM
 
