@@ -7,7 +7,7 @@ This document contains all files and instructions necessary to reproduce the phy
 2. Parts you will need  
   - PLA plastic
   - Screws/Nuts
-  - Servomotor ([HS-5055MG Servo](https://www.servocity.com/hs-5055mg-servo))
+  - Servomotor ([HS-5055MG Servo](https://www.servocity.com/hs-5055mg-servo)) w/ attachments
   
   *The exact equipment used is included in the BOM, replacements can be made but I cannot garantee that it will work*
   
