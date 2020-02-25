@@ -1,16 +1,17 @@
-//Auteur: William Rousseau
-//Date Dernière mise à jour: 2020-02-25
+Author: William Rousseau
+Last update: 2020-02-25
 
-//Explication du code:
-//                    Le programme Main comporte tous les fonctions pour controller les moteurs
-//                    Est fait pour recevoir des String à partir du moniteur Serial
+Code explication:
+                    The Main program controls the servo motors with every functions descripted below
+                    Made to be controlled by the Serial Monitor
 
-// Fonctions:
-//           Mouvement par joints
-//           Setspeed
-//           Ajout de points
-//           Modification de points
-//           Afficher de points
-//           Déplacement vers un point
-//           Créer un programme
-//           Rouler un programme
+
+ Functions:
+           Joints move
+           Setspeed
+           Add positions
+           Modify position
+           Show position
+           Move to position
+           Create a program
+           Run a program
