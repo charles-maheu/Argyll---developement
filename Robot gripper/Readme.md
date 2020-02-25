@@ -4,9 +4,7 @@ This document contains all files and instructions necessary to reproduce the phy
 
    This is a linear gripper made for picking small to medium light objects. It works on it own but is most useful at the end of a robotic arm.
     
-2. BOM
-
-  - 3D printer ([Makerbot Replicator +](https://www.makerbot.com/3d-printers/replicator/))
+2. Parts you will need  
   - PLA plastic
   - Screws/Nuts
   - Servomotor ([HS-5055MG Servo](https://www.servocity.com/hs-5055mg-servo))
