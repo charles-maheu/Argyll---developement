@@ -1,7 +1,7 @@
 # Argyll - Robot Gripper
 This document contains all files and instructions necessary to reproduce the physical assempbly of the robot gripper
 1. Summary
-  This is a linear gripper made for picking small to medium light objects. It works on it own but works best at the end of a robotoc arm.
+    This is a linear gripper made for picking small to medium light objects. It works on it own but works best at the end of a robotoc arm.
 2. BOM
   - 3D printer ([Makerbot Replicator +](https://www.makerbot.com/3d-printers/replicator/))
   - PLA plastic
