@@ -1,0 +1,16 @@
+//Auteur: William Rousseau
+//Date Dernière mise à jour: 2020-02-25
+
+//Explication du code:
+//                    Le programme Main comporte tous les fonctions pour controller les moteurs
+//                    Est fait pour recevoir des String à partir du moniteur Serial
+
+// Fonctions:
+//           Mouvement par joints
+//           Setspeed
+//           Ajout de points
+//           Modification de points
+//           Afficher de points
+//           Déplacement vers un point
+//           Créer un programme
+//           Rouler un programme
