@@ -8,7 +8,6 @@ This document contains all files and instructions necessary to reproduce the phy
   - PLA plastic
   - Screws/Nuts
   - Servomotor ([HS-5055MG Servo](https://www.servocity.com/hs-5055mg-servo))
-  - Arduino Mega 2560
   
   *The exact equipment used is included in the BOM, replacements can be made but I cannot garantee that it will work*
   
