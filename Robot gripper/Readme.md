@@ -22,6 +22,6 @@ This document contains all files and instructions necessary to reproduce the phy
   ![Image](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154309.jpg)
   - Gear
   ![Gear](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154752.jpg)
-  -Arm that links the servo to the gear
+  - Arm that links the servo to the gear
   ![Arm](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20170139.png)
 
