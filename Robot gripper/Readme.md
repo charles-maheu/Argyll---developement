@@ -1,7 +1,8 @@
 # Argyll - Robot Gripper
 This document contains all files and instructions necessary to reproduce the physical assempbly of the robot gripper
+1. Summary
 
-1. BOM
+2. BOM
   - 3D printer ([Makerbot Replicator +](https://www.makerbot.com/3d-printers/replicator/))
   - PLA plastic
   - Screws/Nuts
@@ -10,7 +11,7 @@ This document contains all files and instructions necessary to reproduce the phy
   
   *The exact equipment used is included in the BOM, replacements can be made but I cannot garantee that it will work*
   
-2. 3D printed sections
+3. 3D printed sections
   - Base claw
   ![Base claw](https://github.com/charles-maheu/Argyll---developement/blob/master/Robot%20gripper/Annotation%202020-02-25%20154630.jpg)
   - Mobile claw
