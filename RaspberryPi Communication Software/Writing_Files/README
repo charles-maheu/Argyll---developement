@@ -1,0 +1,4 @@
+Code Explication:
+                  There are multiples ways to write a file with the data that we receive from the OpenCr(or Arduino).
+                  The code "" read line per line and save it in a file
+                  The code "" 
