@@ -15,7 +15,7 @@ This document contains all files and instructions necessary to reproduce the phy
 3. Parts you will need  
   - PLA plastic
   - Screws/Nuts
-  - Servomotors ([HS-5055MG Servo](https://www.servocity.com/hs-5055mg-servo))([HS-788HB](https://www.servocity.com/hs-788hb-servo))([HS-40](https://www.servocity.com/hitec-hs-40-servo)) w/ attachments
+  - Servomotors ([HS-5055MG](https://www.servocity.com/hs-5055mg-servo)) ([HS-788HB](https://www.servocity.com/hs-788hb-servo)) ([HS-40](https://www.servocity.com/hitec-hs-40-servo)) w/ attachments
   - Servo to 1/4" Shaft coupler ([Coupler](https://www.robotshop.com/ca/en/actobotics-set-screw-futaba-servo-shaft-coupler-1-4.html))
 
   *The exact equipment used is included in the BOM, replacements can be made but I cannot garantee that it will work*
