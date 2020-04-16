@@ -14,11 +14,12 @@ This document contains all files and instructions necessary to reproduce the phy
    - Fist person view camera support
 
 
-## 3. Parts you will need
+## 3. Parts and Material
 
 _A more elaborate list can be found in the assembly.pdf document_
 
 - A 3d printer (to print the components)
+- Pla plastic (for the printer)
 - 4x 6-32 Thread, 5/8" Long screws
 - 4x 6-32 Thread nuts
 - 4x 2-56 Thread, 5/8" Long screws
@@ -43,6 +44,10 @@ the default rack and pinion parts. To do so, uncheck the box "Make this folder t
 Toolbox components" in the *Hole Wizard/Toolbox* section of the settings. 
 For more help, see ([ref.](https://forum.solidworks.com/thread/78786)).
 
-## 5. Help
+## 5. Configurating servo motors
+
+**PLACEHOLDER, need to add instructions to upload code for the servo motors**
+
+## 6. Help
 
 The SolidWorks assembly is in the CAD folder in this github repository if the assembly instructions are not clear enough
