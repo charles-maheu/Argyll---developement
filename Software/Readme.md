@@ -31,5 +31,15 @@ Your workspace should be fine. If not refers to [this documentation](http://eman
 Simply upload the latest code version in the OpenCr.
 
 
+# Drawer related Documentation
+## Drawer Setup :
+The code relative to the drawer is identified in the XXXX.ino file. In this section the user MUST adjust the drawer_depth variable value based on his own drawer. We recommend to begin with a value under the one measured, and slightly increasing it after some tests.
+
+## normal running :
+The drawer will only open if when it receives the instruction to open, the reer switch in the back of the drawer detect a magnet (signifying that the drawer if closed).
+Also, the drawer will only close if it is open AND he has not been moved since his last opening operation.
+If it has been moved, the user must closed completely the drawer and send a reset request with the app.
+With those constraints, the software protect the hardware from a request that could lead the Dynamixel to force against a completely open/closed drawer.
+
 
 
