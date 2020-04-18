@@ -18,48 +18,48 @@ Before Opening the Drawer, make sure that the ReerSwitch is activated (It means 
 When you call a function, you enter in a loop and you can't come back until you send ```<back>```
 ## position SECTION
  ```
-  <position> ------------------------------------> To enter in the position loop 
-            |<motors> -------------------------> To move Joint by Joint   
-            |        |<X> ---------------------> To move the motor X
-            |        |   |<left> --------------> To move to the left
-            |        |   |<right> -------------> To move to the right
-            |        |   |       |<stop> ------> To stop the movement
+  <position> ---------------------------------------> To enter in the position loop 
+            |<motors> ------------------------------> To move Joint by Joint   
+            |        |<X> --------------------------> To move the motor X
+            |        |   |<left> -------------------> To move to the left
+            |        |   |<right> ------------------> To move to the right
+            |        |   |       |<stop> -----------> To stop the movement
             |        |   |       |**NOTE**
             |        |   |       |  To Stop, send any input to the serial and then <stop>
-            |        |   |<back> --------------> To Select another Servo
-            |        |<save> ------------------> To save the actual position
-            |        |      |<X> --------------> To save in the position No.X
-            |        |<back> ------------------> To Select another function in position loop   
-            |<saved_positions> ----------------> To go to a position previously saved
-            |                 |<X> ------------> To go to the position X
-            |                 |   |<stop> ---> To stop the movement
+            |        |   |<back> -------------------> To Select another Servo
+            |        |<save> -----------------------> To save the actual position
+            |        |      |<X> -------------------> To save in the position No.X
+            |        |<back> -----------------------> To Select another function in position loop   
+            |<saved_positions> ---------------------> To go to a position previously saved
+            |                 |<X> -----------------> To go to the position X
+            |                 |   |<stop> ----------> To stop the movement
             |                 |   |**NOTE**
             |                 |   |  To Stop, send any input to the serial and then <stop>
-            |                 |<back> ---------> To return to the position loop         
-            |<back> ---------------------------> To return to the main loop
+            |                 |<back> --------------> To return to the position loop         
+            |<back> --------------------------------> To return to the main loop
    ```                              
  ## function SECTION  
  ```
-    <function> ------------------------------------> To enter in the function loop
-              |<drawer> --------------------------> To Open or Close the Drawer 
-              |        |<open> ------------------> To Open the drawer (Careful, the reerswitch must be on. It means that it need a magnet on it)
-              |        |<close> -----------------> To Close the drawer
-              |        |<reset> -----------------> To reset the position of the Drawer to the actual position
-              |        |<back> ------------------> To return to the function loop
-              |<gripper> -------------------------> To Open or Close the gripper
-              |         |<open> -----------------> To open the gripper
-              |         |<close> ----------------> To close the gripper
-              |         |       |<stop> --------> To stop when its enough opened or closed
+    <function> -------------------------------------> To enter in the function loop
+              |<drawer> ----------------------------> To Open or Close the Drawer 
+              |        |<open> ---------------------> To Open the drawer (Careful, the reerswitch must be on. It means that it need a magnet on it)
+              |        |<close> --------------------> To Close the drawer
+              |        |<reset> --------------------> To reset the position of the Drawer to the actual position
+              |        |<back> ---------------------> To return to the function loop
+              |<gripper> ---------------------------> To Open or Close the gripper
+              |         |<open> --------------------> To open the gripper
+              |         |<close> -------------------> To close the gripper
+              |         |       |<stop> ------------> To stop when its enough opened or closed
               |         |       | **NOTE**
               |         |       |   To Stop, send any input to the serial and then <stop>
-              |         |<back> -----------------> To return to the function loop
-              |<icecube> -------------------------> To Open or Close the IceCube finger
-              |         |<open> -----------------> To open the gripper
-              |         |<close> ----------------> To close the gripper
-              |         |       |<stop> --------> To stop when its enough opened or closed
+              |         |<back> --------------------> To return to the function loop
+              |<icecube> ---------------------------> To Open or Close the IceCube finger
+              |         |<open> --------------------> To open the gripper
+              |         |<close> -------------------> To close the gripper
+              |         |       |<stop> ------------> To stop when its enough opened or closed
               |         |       |**NOTE**
               |         |       |  To Stop, send any input to the serial and then <stop>
-              |         |<back> -----------------> To return to the function loop                             
+              |         |<back> --------------------> To return to the function loop                             
    ```                                             
                                                
  ## LIST OF ALL FUNCTIONS ONLY USED BY SERIAL MONITOR:                                              
