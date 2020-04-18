@@ -63,6 +63,33 @@ PUT THE PICTURE OF THE LINE
 
 ### 4. Start the program on StartUp
 
+Go to the file systemd by typing this line:
+```
+cd /etc/systemd/system/
+```
+Create a new file
+```
+sudo nano MainToExec.service
+```
+#### In the file MainToExec write
+```
+[Unit]
+Description=-------- To Execute the Main When The Raspberry Pi starts
+
+[Service]
+ExecStart=/home/pi/Argyll---developement/Software/Code_For_RaspberryPi/Main.py
+
+[Install]
+WantedBy=multi-user.target
+```
+After, in the Terminal Window, Type:
+```
+sudo systemctl enable MainToExec.service
+```
+#### To Disable the Program on StartUp
+```
+sudo systemctl disable MainToExec.service
+```
 
 
 # Drawer related Documentation
