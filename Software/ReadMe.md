@@ -3,6 +3,7 @@ Last edited: 18-04-2020
 Author: William Rousseau
 
 # Code For OpenCR or Arduino
+You can use one of them, it depend of if you have an Arduino or an OpenCr.
 
 The OpenCR is used to control the Servo motors and the Dynamixel(for the Drawer).
 
