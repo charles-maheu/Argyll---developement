@@ -71,7 +71,7 @@ Create a new file
 ```
 sudo nano MainToExecute.service
 ```
-#### In the file MainToExec write
+#### In the file MainToExecute write
 ```
 [Unit]
 Description=-------- To Execute the Main When The Raspberry Pi starts
