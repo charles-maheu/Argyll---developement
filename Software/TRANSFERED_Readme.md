@@ -71,12 +71,17 @@ Create a new file
 ```
 sudo nano MainToExecute.service
 ```
-#### In the file MainToExecute write
+#### In the file MainToExecute.service write
 ```
 [Unit]
 Description=-------- To Execute the Main When The Raspberry Pi starts
+After=bluetooth.target
+Requires=bluetooth.target
 
 [Service]
+Type=simple
+Restart=always
+RestartSec=1
 ExecStart=/usr/bin/python3 -u Main.py
 WorkingDirectory=/home/pi/Argyll---developement/Software/Code_For_RaspberryPi
 
