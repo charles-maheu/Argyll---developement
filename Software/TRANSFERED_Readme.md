@@ -31,8 +31,18 @@ number of the usb port (1,2,3...)
 You can also test the exemples in FILE → EXEMPLES → OpenCr → "any exemple code"
 Your workspace should be fine. If not refers to [this documentation](http://emanual.robotis.com/docs/en/parts/controller/opencr10/#install-on-windows)
 
-### 6. Code Setup :
+### 6. Code Setup
 Simply upload the latest code version in the OpenCr.
+
+
+## Raspberry Pi Setup :
+
+### 1. Python3 IDLE
+you need to download the Python3 IDE.
+
+#### Open up the Terminal Window and type:
+sudo apt update
+sudo apt install python3 idle3
 
 
 # Drawer related Documentation
