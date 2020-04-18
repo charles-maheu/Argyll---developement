@@ -9,8 +9,6 @@ The Arduino can only control the Servo motors. So, this is why another program d
 
 It is made to be controlled via the Serial Monitor of the Arduino IDE, the Raspberry Pi Terminal Window or the Application.
 
-All Input must be write between start markers and end markers: ```<function> <drawer> <open>```
-
 Before Opening the Drawer, make sure that the ReerSwitch is activated (It means that the drawer is completely closed and a magnet is on the Reerswitch)
 
 IF YOU DON'T HAVE ANY SAVINGFILE OR NOT CONNECTED TO A RASPBERRY PI, PUT ```SavingFile=false``` at line 90
@@ -19,6 +17,8 @@ IF YOU DON'T HAVE ANY SAVINGFILE OR NOT CONNECTED TO A RASPBERRY PI, PUT ```Savi
 
 ## Functions
 Many functions can be used the control the Servos or the Dynamixel.
+
+All Input must be write between start markers and end markers: ```<function> <drawer> <open>```
 
 When you call a function, you enter in a loop and you can't come back until you send ```<back>```
 
