@@ -41,10 +41,28 @@ Simply upload the latest code version in the OpenCr.
 you need to download the Python3 IDE.
 
 #### Open up the Terminal Window and type:
-
+```
 sudo apt update
-
 sudo apt install python3 idle3
+```
+https://projects.raspberrypi.org/en/projects/generic-python-install-python3
+
+### 2. Download Code_For_RaspberryPi
+Simply download this Github in your RaspberryPi IN A LOCATION THAT IS EASY TO FIND.
+
+### 3. Start the program
+FIRST, Make sure that the OpenCR card is connected and has the right code in it.
+#### Open up the Terminal Window and type:
+```
+python3 /home/pi/Argyll---developement/Software/Code_For_RaspberryPi/Main.py
+```
+
+Where /home/pi/Argyll---developement/Software/Code_For_RaspberryPi/ is the direction of your file. It may change, depends on where you downloaded it. Check the line below to see where it is:
+
+PUT THE PICTURE OF THE LINE
+
+### 4. Start the program on StartUp
+
 
 
 # Drawer related Documentation
