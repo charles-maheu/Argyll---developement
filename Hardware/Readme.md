@@ -6,5 +6,5 @@ Instructions are on the wiki
 
 To Control the Robot Arm, you need a PWM Servo Driver
 
-![Circuit]()
+![Circuit](Hardware/Circuit.png)
 Format: ![Alt Text](url)
