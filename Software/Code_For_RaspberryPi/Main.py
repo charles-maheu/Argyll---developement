@@ -60,7 +60,7 @@ def SendingToOpenCr(self,data):
             print("End of saving joint positions")
             outfile.close()
 
-        if (line == "ReadyToSetup"):
+        if (line == "WaitingForSavingFile"):
             print("Sending all data from the JSON file to the Arduino")
             with open(jointPositionsFile) as infile:
                 data = json.load(infile)
@@ -223,10 +223,10 @@ def StartupSaving():
     #time.sleep(.01)
 
 
-    #while (line!="ReadyToSetup"):
+    #while (line!="WaitingForSavingFile"):
     line = ser.readline().decode('utf-8').rstrip()
     
-    if (line == "ReadyToSetup"):
+    if (line == "WaitingForSavingFile"):
             print("Sending all data from the JSON file to the Arduino")
             with open(jointPositionsFile) as infile:
                 data = json.load(infile)
