@@ -1,6 +1,4 @@
-Last edited: 18-04-2020
-
-Author: William Rousseau
+Last edited: 18-04-2020 by William Rousseau
 
 # Code For OpenCR or Arduino
 You can use one of them, it depend of if you have an Arduino or an OpenCr.
