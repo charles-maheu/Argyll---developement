@@ -69,7 +69,7 @@ cd /etc/systemd/system/
 ```
 Create a new file
 ```
-sudo nano MainToExec.service
+sudo nano MainToExecute.service
 ```
 #### In the file MainToExec write
 ```
@@ -77,18 +77,27 @@ sudo nano MainToExec.service
 Description=-------- To Execute the Main When The Raspberry Pi starts
 
 [Service]
-ExecStart=/home/pi/Argyll---developement/Software/Code_For_RaspberryPi/Main.py
+ExecStart=/usr/bin/python3 -u Main.py
+WorkingDirectory=/home/pi/Argyll---developement/Software/Code_For_RaspberryPi
 
 [Install]
 WantedBy=multi-user.target
 ```
-After, in the Terminal Window, Type:
+After, try it in the Terminal Window by typing:
 ```
-sudo systemctl enable MainToExec.service
+sudo systemctl start MainToExecute.service
+```
+Then
+```
+sudo systemctl stop MainToExecute.service
+```
+If it works correctly:
+```
+sudo systemctl enable MainToExecute.service
 ```
 #### To Disable the Program on StartUp
 ```
-sudo systemctl disable MainToExec.service
+sudo systemctl disable MainToExecute.service
 ```
 
 
