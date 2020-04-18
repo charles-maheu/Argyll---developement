@@ -16,7 +16,7 @@ Before Opening the Drawer, make sure that the ReerSwitch is activated (It means 
 
 # 2. Functions
 When you call a function, you enter in a loop and you can't come back until you send ```<back>```
-## POSITION SECTION
+## position SECTION
  ```
   <position> ------------------------------------> To enter in the position loop 
             |<motors> -------------------------> To move Joint by Joint   
@@ -38,7 +38,7 @@ When you call a function, you enter in a loop and you can't come back until you 
             |                 |<back> ---------> To return to the position loop         
             |<back> ---------------------------> To return to the main loop
    ```                              
- ## FUNCTION SECTION  
+ ## function SECTION  
  ```
     <function> ------------------------------------> To enter in the function loop
               |<drawer> --------------------------> To Open or Close the Drawer 
