@@ -1,5 +1,5 @@
-> Last edited: 15-04-20 by Étienne Bellerose
-> Author: Étienne Bellerose
+> Last edited: 18-04-20 by William Rousseau
+> Author: Étienne Bellerose & William Rousseau
 
 # Software setup
 Firstly, the workspace must be set up. [this website contains all the relevant information](http://emanual.robotis.com/docs/en/parts/controller/opencr10/#install-on-windows), but the main step for a setup on Windows10 will be described here.
