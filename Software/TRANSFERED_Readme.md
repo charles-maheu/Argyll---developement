@@ -31,7 +31,7 @@ number of the usb port (1,2,3...)
 You can also test the exemples in FILE → EXEMPLES → OpenCr → "any exemple code"
 Your workspace should be fine. If not refers to [this documentation](http://emanual.robotis.com/docs/en/parts/controller/opencr10/#install-on-windows)
 
-### Code Setup :
+### 6. Code Setup :
 Simply upload the latest code version in the OpenCr.
 
 
