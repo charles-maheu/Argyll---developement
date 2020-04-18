@@ -1,10 +1,10 @@
 # Android Application
 
-This is the Android application code to control the servomotors with an Android device via Bluetooth. 
+This is the Android application code to control servomotors with an Android device via Bluetooth. 
 
 ## Getting Started
 
-Download Android-nRF-UART-master zip file and extract it at a known place. This folder will be the root of a new poject on Android Studio.
+Download Android-nRF-UART-master zip file and extract it at a known place. This folder will be the root the poject on Android Studio.
 
 ### Prerequisites
 
@@ -44,17 +44,24 @@ Go to your settings and scroll to About Phone
 
 Click seven (7) times on Build number
 
-Back --> System --> Developper options
+Back --> System --> Developper options 
 
-Authorize USB debuuging
+Authorize USB debugging
 
 ## Deployment
 
 Connect your Android device on your computer
 
 Open Android Studio 
+
 And open Android-nRF-UART-master project
+
 Wait until Android Studio finish its build
+
 MAJ+F10
+
+## License
+
+Licensed under the Apache License, Version 2.0
 
 
