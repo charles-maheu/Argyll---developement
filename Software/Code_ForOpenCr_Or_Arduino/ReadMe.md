@@ -4,7 +4,7 @@ Last edited: 18-04-2020 by William Rousseau
 # 1. Codes Explination
 Both codes are similare, but one can uses Dynamixel (For OpenCr) and the other cannot (For Arduino).
 #### Dynamixel are for the Drawer
-Those codes are used to control the Servo motors or the Dynamixel with many functions. 
+Those codes are used to control the Servo motors and the Dynamixel with many functions. 
 
 It is made to be controlled via the Serial Monitor of the Arduino IDE, the Raspberry Pi’s Command Window or the Application.
 
