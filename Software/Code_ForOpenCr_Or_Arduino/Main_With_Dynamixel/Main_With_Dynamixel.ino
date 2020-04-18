@@ -276,7 +276,7 @@ void setup() {
      // SETUP the position from the saving file
   if (SavingFile == true)
   {
-    Serial.println("ReadyToSetup");
+    Serial.println("WaitingForSavingFile");
 
        char POINT[50][100];
        char check;
