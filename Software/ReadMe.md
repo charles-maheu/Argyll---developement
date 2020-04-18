@@ -18,6 +18,8 @@ All Input must be write between start markers and end markers: ```<function> <dr
 ## Functions
 Many functions can be used the control the Servos or the Dynamixel.
 
+When you call a function, you enter in a loop and you can't come back until you send ```<back>```
+
 #### To see all functions and how to call them, go to the wiki p.XXX
 
 # Code For Raspberry Pi
