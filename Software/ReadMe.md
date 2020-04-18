@@ -7,7 +7,7 @@ The OpenCR is used to control the Servo motors and the Dynamixel(for the Drawer)
 
 The Arduino can only control the Servo motors. So, this is why another program doesn't contain the Dynamixel Library.
 
-It is made to be controlled via the list below:
+It is made to be controlled via the list below at any time:
 - Serial Monitor of the Arduino IDE
 - Raspberry Pi Terminal Window
 - Application
