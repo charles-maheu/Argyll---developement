@@ -23,7 +23,7 @@ See if OpenCR Board is now on the list of Tools → Board. Click this to import 
 
 ### 4. PWMServoDriver setup
 You need to download the library PWM-Servo-Driver via https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library to the library file of the Arduino IDE in your PC.
-In Arduino IDE → Click sketch → Add a library → Manage the lybrary and then the PWM-Servo-Driver library must appear.
+After the library has been downloaded, in Arduino IDE → Click sketch → Add a library → Manage the lybrary and then the PWM-Servo-Driver library must appear.
 
 ### 5. OpenCR Testing
 To see if the installation worked, plug your OpenCr card via an USB port, it should appears in Tools → Port → COMX where X is the
