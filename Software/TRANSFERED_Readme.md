@@ -42,6 +42,7 @@ you need to download the Python3 IDE.
 
 #### Open up the Terminal Window and type:
 sudo apt update
+
 sudo apt install python3 idle3
 
 
