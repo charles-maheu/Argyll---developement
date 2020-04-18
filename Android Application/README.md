@@ -20,15 +20,19 @@ Vista or newer
 
 ##### For Linux
 Ubuntu 14.04 or newer
+
 GNU C librairy 2.15 or newer
+
 64 bits distribution should be able to run 32 bits applications
 
 #### JDK
 https://www.oracle.com/java/technologies/javase-downloads.html
+
 Click on JDK Download
 
 #### Android studio and SDK Android
 https://developer.android.com/sdk/installing/studio.html
+
 Click on DOWNLOAD ANDROID STUDIO and execute the file when ready
 
 If you don't have an Android device you have to install Android Virtual Device when asking. Either way you don't need any of other components than Android Studio 
