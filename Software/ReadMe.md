@@ -13,7 +13,12 @@ It is made to be controlled via the Serial Monitor of the Arduino IDE, the Raspb
 
 All Input must be write between start markers and end markers: ```<function> <drawer> <open>```
 
-#### To see how to setup the OpenCR or Arduino cards got to the wiki p.XXX
+#### To see how to setup the OpenCR or Arduino cards go to the wiki p.XXX
+
+## Functions
+Many functions can be used the control the Servos or the Dynamixel.
+
+#### To see all functions and how to call them, go to the wiki p.XXX
 
 # Code For Raspberry Pi
 
