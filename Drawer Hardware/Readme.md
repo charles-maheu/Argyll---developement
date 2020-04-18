@@ -46,7 +46,7 @@ If necessary, here are the steps to do that :
 
 | mm :| inches :|
 |-|-|
-|![Gear modifications mm](images/SW_modifications_mm.png)|![Gear modifications inch](images/SW_modifications.png)|
+|![Gear modifications mm](images/SW_modifications_mm.PNG)|![Gear modifications inch](images/SW_modifications.PNG)|
 
 6. The assembly should update itself. Some *Mates* might need to be fixed.
 
@@ -55,8 +55,8 @@ Depending on the spacing available in the target drawer, it's possible to modify
 
 |Type| Advantage | Top view | Side view |
 |-|-|-|-|
-| **Default** or narrow | **Allows for very small distance between the sidewall and the drawer.** This space is only needed to fit the attach from the motor support.|![Gearsetup1-topview.png](images/Gearsetup1-topview.png) |![Gearsetup1-sideview.png](images/Gearsetup1-sideview.png)|
-|**Thinner**| **Allows for a very small distance between the top of the drawer's sides and any obstables** while being sligthly wider. This is achieved by making the gear larger and thinner and the rack thinner and positionned lower. *The larger gear makes it possible for the rack to not intersect the support and thus require to be placed higher than the support.* |![Gearsetup2-topview.png](images/Gearsetup2-topview.png)|![Gearsetup2-sideview.png](images/Gearsetup2-sideview.png)|
+| **Default** or narrow | **Allows for very small distance between the sidewall and the drawer.** This space is only needed to fit the attach from the motor support.|![Gearsetup1-topview.PNG](images/Gearsetup1-topview.PNG) |![Gearsetup1-sideview.PNG](images/Gearsetup1-sideview.PNG)|
+|**Thinner**| **Allows for a very small distance between the top of the drawer's sides and any obstables** while being sligthly wider. This is achieved by making the gear larger and thinner and the rack thinner and positionned lower. *The larger gear makes it possible for the rack to not intersect the support and thus require to be placed higher than the support.* |![Gearsetup2-topview.PNG](images/Gearsetup2-topview.PNG)|![Gearsetup2-sideview.PNG](images/Gearsetup2-sideview.PNG)|
 
 ### 2. Printing components
 The parts can be 3D printed from the previously modified CADs. Most of those parts may be subject to non-negligible stress from daily use and it is highly suggested the parts are printed with a good infill value to avoid problems. Support must aslo be used to ensure the parts print correctly.
