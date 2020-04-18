@@ -64,6 +64,8 @@ Wait until Android Studio finish its build
 
 MAJ+F10
 
+The application is ready to be use. If you read TRASFERED_README in th Software folder and started the Main.py program on Raspberry Pi, you should see Robot Arm as connexion option after had clicked on the connect button of the application.
+
 ## License
 
 Licensed under the Apache License, Version 2.0
