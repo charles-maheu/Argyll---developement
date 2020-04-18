@@ -41,7 +41,7 @@ Simply upload the latest code version in the OpenCr.
 you need to download the Python3 IDE.
 
 #### Open up the Terminal Window and type:
-sudo apt update
+sudo apt update\n
 sudo apt install python3 idle3
 
 
