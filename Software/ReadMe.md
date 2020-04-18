@@ -5,6 +5,7 @@ Author: William Rousseau
 # Code For OpenCR or Arduino
 
 The OpenCR is used to control the Servo motors or the Dynamixel for the Drawer.
+
 The Arduino can only control the Servo motors. So, this is why another program doesn't contain the Dynamixel Library.
 
 #### To see how setup the OpenCR or Arduino cards got to the wiki p.XXX 
