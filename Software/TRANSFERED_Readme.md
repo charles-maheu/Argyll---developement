@@ -1,5 +1,5 @@
-> Last edited: 15-04-20 by Étienne Bellerose
-> Author: Étienne Bellerose
+> Last edited: 18-04-20 by William Rousseau
+> Author: Étienne Bellerose & William Rousseau
 
 # Software setup
 Firstly, the workspace must be set up. [this website contains all the relevant information](http://emanual.robotis.com/docs/en/parts/controller/opencr10/#install-on-windows), but the main step for a setup on Windows10 will be described here.
@@ -41,8 +41,69 @@ Simply upload the latest code version in the OpenCr.
 you need to download the Python3 IDE.
 
 #### Open up the Terminal Window and type:
-sudo apt update\n
+```
+sudo apt update
 sudo apt install python3 idle3
+```
+https://projects.raspberrypi.org/en/projects/generic-python-install-python3
+
+### 2. Download Code_For_RaspberryPi
+Simply download this Github in your RaspberryPi IN A LOCATION THAT IS EASY TO FIND.
+
+### 3. Start the program
+FIRST, Make sure that the OpenCR card is connected and has the right code in it.
+#### Open up the Terminal Window and type:
+```
+python3 /home/pi/Argyll---developement/Software/Code_For_RaspberryPi/Main.py
+```
+
+Where /home/pi/Argyll---developement/Software/Code_For_RaspberryPi/ is the direction of your file. It may change, depends on where you downloaded it. Check the line below to see where it is:
+
+PUT THE PICTURE OF THE LINE
+
+### 4. Start the program on StartUp
+
+Go to the file systemd by typing this line:
+```
+cd /etc/systemd/system/
+```
+Create a new file
+```
+sudo nano MainToExecute.service
+```
+#### In the file MainToExecute.service write
+```
+[Unit]
+Description=-------- To Execute the Main When The Raspberry Pi starts
+After=bluetooth.target
+Requires=bluetooth.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/python3 -u Main.py
+WorkingDirectory=/home/pi/Argyll---developement/Software/Code_For_RaspberryPi
+
+[Install]
+WantedBy=multi-user.target
+```
+After, try it in the Terminal Window by typing:
+```
+sudo systemctl start MainToExecute.service
+```
+Then
+```
+sudo systemctl stop MainToExecute.service
+```
+If it works correctly:
+```
+sudo systemctl enable MainToExecute.service
+```
+#### To Disable the Program on StartUp
+```
+sudo systemctl disable MainToExecute.service
+```
 
 
 # Drawer related Documentation
