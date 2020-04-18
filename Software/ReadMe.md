@@ -13,6 +13,8 @@ All Input must be write between start markers and end markers: ```<function> <dr
 
 Before Opening the Drawer, make sure that the ReerSwitch is activated (It means that the drawer is completely closed and a magnet is on the Reerswitch)
 
+IF YOU DON'T HAVE ANY SAVINGFILE OR NOT CONNECTED TO A RASPBERRY PI, PUT ```SavingFile=false``` at line 90
+
 #### To see how to setup the OpenCR or Arduino cards go to the wiki p.XXX
 
 ## Functions
