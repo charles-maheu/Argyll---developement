@@ -21,7 +21,11 @@ Type OpenCR into the textbox to find the OpenCR by ROBOTIS package. After it fin
 After the installation, “INSTALLED” will be appeared.
 See if OpenCR Board is now on the list of Tools → Board. Click this to import the OpenCR Board source
 
-### 4. Testing
+### 4. PWMServoDriver setup
+You need to download the library PWM-Servo-Driver via https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library to the library file of the Arduino IDE in your PC.
+In Arduino IDE → Click sketch → Add a library → Manage the lybrary and then the PWM-Servo-Driver library must appear.
+
+### 5. OpenCR Testing
 To see if the installation worked, plug your OpenCr card via an USB port, it should appears in Tools → Port → COMX where X is the
 number of the usb port (1,2,3...)
 You can also test the exemples in FILE → EXEMPLES → OpenCr → "any exemple code"
